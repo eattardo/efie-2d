@@ -1,0 +1,7 @@
+#ifndef __VERSION_H__
+#define __VERSION_H__
+
+#define GIT_TAG "@GIT_TAG@"
+#define GIT_COMMIT_HASH "@GIT_COMMIT_HASH@"
+
+#endif //__VERSION_H__

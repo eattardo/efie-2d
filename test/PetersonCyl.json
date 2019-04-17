@@ -1,0 +1,28 @@
+{
+  "geometry": {
+    "circle": {
+      "id": 2,
+      "center": [0, 0],
+      "radius": 0.1591
+    }
+  },
+  "solver":{
+    "resolution": 0.0416,
+    "frequency": {
+        "id": 1,
+        "val": 299792458
+    }
+  },
+  "material": {
+    "id_geo": 1,
+    "id_freq": 1,
+    "epsr": 2.56,
+    "sigma": 0.0
+  },
+  "excitation":{
+    "planewave":{
+      "start_phi": 180,
+      "end_phi": 180
+    }
+  }
+}

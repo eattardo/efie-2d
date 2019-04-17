@@ -1,0 +1,51 @@
+{
+  "geometry": {
+    "circle": [
+      {
+      "id": 1,
+      "id_mat": 1,
+      "center": [0.2, 0.2],
+      "radius": 0.15
+      },
+      {
+      "id": 3,
+      "id_mat": 2,
+      "center": [0.9, 0.9],
+      "radius": 0.5
+      }
+    ],
+    "rectangle":{
+      "id": 2,
+      "id_mat": 3,
+      "pmin": [0, 0],
+      "pmax": [5, 5]
+    }
+  },
+  "solver":{
+    "resolution": 0.1,
+    "frequency": {
+      "id": 1,
+      "val": 1000000000
+    }
+  },
+  "material":[
+      {"id": 1,
+       "id_freq": 1,
+       "epsr": 1.5,
+       "sigma": 0.0},
+      {"id": 2,
+       "id_freq": 1,
+       "epsr": 3.5,
+       "sigma": 0.0},
+      {"id": 3,
+       "id_freq": 1,
+       "epsr": 31.5,
+       "sigma": 10.0}
+  ],
+  "excitation":{
+    "planewave":{
+      "start_phi": 0,
+      "end_phi": 0
+    }
+  }
+}
