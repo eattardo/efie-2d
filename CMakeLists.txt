@@ -35,7 +35,6 @@ CONFIGURE_FILE(
 SET(EFIE2D_SRC_SOLVER ${CMAKE_SOURCE_DIR}/src/solver/solver.cpp)
 SET(EFIE2D_SRC_KERNEL ${CMAKE_SOURCE_DIR}/src/kernel/kernel.cpp)
 SET(EFIE2D_SRC_AI_KERNEL ${CMAKE_SOURCE_DIR}/src/kernel/ai_ker.cpp)
-SET(EFIE2D_TIMER ${CMAKE_SOURCE_DIR}/src/utils/hr_time.cpp)
 SET(EFIE2D_SRC_JSON_READER ${CMAKE_SOURCE_DIR}/src/json_reader/json_reader.cpp)
 SET(EFIE2D_SRC_MESH ${CMAKE_SOURCE_DIR}/src/mesh/mesh.cpp)
 SET(EFIE2D_SRC_GEO ${CMAKE_SOURCE_DIR}/src/geometry/geometry.cpp)
@@ -45,7 +44,7 @@ SET(EFIE2D_SRC_MODEL ${CMAKE_SOURCE_DIR}/src/model/frequency.cpp ${CMAKE_SOURCE_
 SET(EFIE2D_SRC_EXC ${CMAKE_SOURCE_DIR}/src/excitation/excitation.cpp ${CMAKE_SOURCE_DIR}/src/excitation/planewave.cpp)
 
 SET(EFIE2D_SRC ${EFIE2D_SRC_JSON_READER} ${EFIE2D_SRC_MAT} ${EFIE2D_SRC_OBJ} ${EFIE2D_SRC_MESH}
-  ${EFIE2D_SRC_GEO} ${EFIE2D_SRC_MODEL} ${EFIE2D_SRC_EXC} ${EFIE2D_SRC_SOLVER} ${EFIE2D_SRC_KERNEL} ${EFIE2D_SRC_AI_KERNEL} ${EFIE2D_TIMER})
+  ${EFIE2D_SRC_GEO} ${EFIE2D_SRC_MODEL} ${EFIE2D_SRC_EXC} ${EFIE2D_SRC_SOLVER} ${EFIE2D_SRC_KERNEL} ${EFIE2D_SRC_AI_KERNEL})
 # Set folder for the Armadillo and Bessel/Hankel implementation
 SET(Armadillo ${CMAKE_SOURCE_DIR}/Armadillo/armadillo-8.500.0)
 SET(Bessel ${CMAKE_SOURCE_DIR}/ComplexBesselLib/complex_bessel-release-0.6)
